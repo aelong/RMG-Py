@@ -1,0 +1,16 @@
+Removing old C:\Code\RMG-Py\importer\pentaneNO\RMG-Py-output\RMG_backup.log
+Moving C:\Code\RMG-Py\importer\pentaneNO\RMG-Py-output\RMG.log to C:\Code\RMG-Py\importer\pentaneNO\RMG-Py-output\RMG_backup.log
+
+http://127.0.0.1:8084
+Reading species list...
+[26/Jul/2017:18:29:48] ENGINE Bus STARTING
+Error: [26/Jul/2017:18:29:48] ENGINE Set handler for console events.
+[26/Jul/2017:18:29:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+Reading thermo file...
+[26/Jul/2017:18:29:48] ENGINE Bus STOPPING
+[26/Jul/2017:18:29:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8084)) already shut down
+Error: [26/Jul/2017:18:29:48] ENGINE Removed handler for console events.
+[26/Jul/2017:18:29:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[26/Jul/2017:18:29:48] ENGINE Bus STOPPED
+[26/Jul/2017:18:29:48] ENGINE Bus EXITING
+[26/Jul/2017:18:29:48] ENGINE Bus EXITED

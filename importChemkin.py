@@ -319,7 +319,7 @@ class ModelMatcher():
                 while line0 != '':
                     line = removeCommentFromLine(line0)[0]
                     tokens_upper = line.upper().split()
-                    if tokens_upper and tokens_upper[0] in ('SPECIES', 'SPEC'):
+                    if tokens_upper and tokens_upper[0] in ('SSPECIES', 'SPEC'):
                         # Unread the line (we'll re-read it in readReactionBlock())
                         f.seek(-len(line0), 1)
                         readSpeciesBlock(f, speciesDict, speciesAliases, speciesList)
@@ -342,16 +342,20 @@ class ModelMatcher():
         #with codecs.open(thermo_file, "r", "utf-8") as f:
         with open(thermo_file) as f:
             line0 = f.readline()
+            logging.info(line0)
             while line0 != '':
                 line = removeCommentFromLine(line0)[0]
                 tokens_upper = line.upper().split()
-                if tokens_upper and tokens_upper[0].startswith('THER'):
+                if tokens_upper and tokens_upper[0].startswith('TTHER'):
                     foundThermoBlock = True
+                    logging.info("test1")
+                    print("test2")
                     # Unread the line (we'll re-read it in readThermoBlock())
                     f.seek(-len(line0), 1)
                     try:
                         formulaDict = readThermoBlock(f, speciesDict)  # updates speciesDict in place
-                    except:
+                    except Exception as e:
+                        print e
                         logging.error("Error reading thermo block around line:\n" + f.readline())
                         raise
                     assert formulaDict, "Didn't read any thermo data"

@@ -1,0 +1,286 @@
+
+H2O2
+1 O u0 p2 c0 {2,S}
+2 O u0 p2 c0 {1,S}
+
+
+OH
+multiplicity 2
+1 O u1 p2 c0
+
+
+H2
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+
+H
+multiplicity 2
+1 H u1 p0 c0
+
+
+O
+multiplicity 3
+1 O u2 p2 c0
+
+
+H2O
+1 O u0 p2 c0
+
+
+HO2
+multiplicity 2
+1 O u0 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+
+O2
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+
+AR
+1 Ar u0 p4 c0
+
+
+N2
+1 N u0 p1 c0 {2,T}
+2 N u0 p1 c0 {1,T}
+
+
+HE
+1 He u0 p1 c0
+
+
+// Warning! Duplicate of OH
+OHV
+multiplicity 2
+1 O u1 p2 c0
+
+
+CO
+multiplicity 3
+1 C u2 p0 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+
+CO2
+1 C u0 p0 c0 {2,D} {3,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
+
+
+CH4
+1 C u0 p0 c0
+
+
+CH3
+multiplicity 2
+1 C u1 p0 c0
+
+
+C
+1 C u0 p2 c0
+
+
+CH
+multiplicity 4
+1 C u3 p0 c0
+
+
+// Warning! Duplicate of CH
+CHV
+multiplicity 4
+1 C u3 p0 c0
+
+
+CH3OH
+1 C u0 p0 c0 {2,S}
+2 O u0 p2 c0 {1,S}
+
+
+C2H6
+1 C u0 p0 c0 {2,S}
+2 C u0 p0 c0 {1,S}
+
+
+C2H5
+multiplicity 2
+1 C u0 p0 c0 {2,S}
+2 C u1 p0 c0 {1,S}
+
+
+C2H4
+1 C u0 p0 c0 {2,D}
+2 C u0 p0 c0 {1,D}
+
+
+C2H
+multiplicity 2
+1 C u0 p0 c0 {2,T}
+2 C u1 p0 c0 {1,T}
+
+
+C3H8
+1 C u0 p0 c0 {2,S} {3,S}
+2 C u0 p0 c0 {1,S}
+3 C u0 p0 c0 {1,S}
+
+
+C2H2
+1 C u0 p0 c0 {2,T}
+2 C u0 p0 c0 {1,T}
+
+
+CH3OCH3
+1 C u0 p0 c0 {3,S}
+2 C u0 p0 c0 {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+
+
+O3
+1 O u0 p1 c+1 {2,S} {3,D}
+2 O u0 p3 c-1 {1,S}
+3 O u0 p2 c0 {1,D}
+
+
+N
+multiplicity 4
+1 N u3 p1 c0
+
+
+NO2
+multiplicity 2
+1 N u0 p1 c0 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 O u1 p2 c0 {1,S}
+
+
+CH3O
+multiplicity 2
+1 C u0 p0 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+
+CH2OH
+multiplicity 2
+1 C u1 p0 c0 {2,S}
+2 O u0 p2 c0 {1,S}
+
+
+CH2O
+1 C u0 p0 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+
+NC3H7
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S}
+2 C u0 p0 c0 {1,S}
+3 C u1 p0 c0 {1,S}
+
+
+HCO
+multiplicity 2
+1 C u1 p0 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+
+HONO
+1 N u0 p1 c0 {2,S} {3,D}
+2 O u0 p2 c0 {1,S}
+3 O u0 p2 c0 {1,D}
+
+
+C2H3
+multiplicity 2
+1 C u0 p0 c0 {2,D}
+2 C u1 p0 c0 {1,D}
+
+
+CH2
+multiplicity 3
+1 C u2 p0 c0
+
+
+CH3OCH2
+multiplicity 2
+1 C u0 p0 c0 {3,S}
+2 C u1 p0 c0 {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+
+
+C3H6
+1 C u0 p0 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,D}
+3 C u0 p0 c0 {2,D}
+
+
+IC3H7
+multiplicity 2
+1 C u0 p0 c0 {3,S}
+2 C u0 p0 c0 {3,S}
+3 C u1 p0 c0 {1,S} {2,S}
+
+
+C3H5-A
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,D}
+2 C u1 p0 c0 {1,S}
+3 C u0 p0 c0 {1,D}
+
+
+C3H5-T
+multiplicity 2
+1 C u0 p0 c0 {3,S}
+2 C u0 p0 c0 {3,D}
+3 C u1 p0 c0 {1,S} {2,D}
+
+
+C3H5-S
+multiplicity 2
+1 C u0 p0 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,D}
+3 C u1 p0 c0 {2,D}
+
+
+C3H4-A
+1 C u0 p0 c0 {3,D}
+2 C u0 p0 c0 {3,D}
+3 C u0 p0 c0 {1,D} {2,D}
+
+
+C3H4-P
+1 C u0 p0 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T}
+
+
+NO
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+
+C3H3
+multiplicity 2
+1 C u0 p0 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D}
+
+
+HNO
+1 N u0 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+
+FULVENE
+1 C u0 p0 c0 {2,S} {3,S} {6,D}
+2 C u0 p0 c0 {1,S} {4,D}
+3 C u0 p0 c0 {1,S} {5,D}
+4 C u0 p0 c0 {2,D} {5,S}
+5 C u0 p0 c0 {3,D} {4,S}
+6 C u0 p0 c0 {1,D}
+
+

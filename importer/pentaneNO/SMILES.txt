@@ -46,3 +46,6 @@ C3H4-A	C=C=C	! Confirmed by alongd
 C3H4-P	C#CC	! Confirmed by alongd
 NO	[N]=O	! Confirmed by alongd
 
+C3H3	[CH]=C=C	! Confirmed by Anonymous
+HNO	N=O	! Confirmed by Anonymous
+FULVENE	C=C1C=CC=C1	! Confirmed by Anonymous
