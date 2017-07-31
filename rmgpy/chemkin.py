@@ -1394,6 +1394,9 @@ def writeThermoEntry(species, elementCounts=None, verbose=True):
                 else:
                     string += "! {0}\n".format(line) 
 
+    # Line 0 for using rdworkbench  
+    string += '![_ SMILES="'+species.molecule[0].toSMILES()+'" _]\n'
+
     # Line 1
     string += '{0:<16}        '.format(getSpeciesIdentifier(species))
     if len(elementCounts) <= 4:
