@@ -1336,7 +1336,9 @@ def getSpeciesIdentifier(species):
         # First try to use the label and index
         # The label can only contain alphanumeric characters, and -()*#_,
         if len(label) > 0 and species.index >= 0 and not re.search(r'[^A-Za-z0-9\-_,\(\)\*#]+', label):
-            name = '{0}({1:d})'.format(label, species.index)
+            #(aelong) modified to only use label for simplicity with libraries and seed mechs and using the produced chemkin mechs
+            name = '{0}'.format(label,)
+            # name = '{0}({1:d})'.format(label, species.index)
             if len(name) <= 10:
                 return name
     
